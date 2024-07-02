@@ -8,5 +8,5 @@ import { Task } from '../../../Task';
 })
 export class TaskComponent {
   @Input()
-  task: any;
+  task: Task | undefined;
 }
