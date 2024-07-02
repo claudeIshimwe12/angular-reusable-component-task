@@ -1,5 +1,13 @@
 # HelloWorld
 
+In this project, there is a demonstration of extracting data from a parent component to child component.
+
+As you will see, the Tasks Component has access to Tasks Array imported form db.data.ts file.
+
+But it uses \*ngfor derective to loop through those objects and displaying each in the view of it's child component called "Task".
+
+Task Component gets task object from the db.data.ts array and displays each on it's view.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
 
 ## Development server
